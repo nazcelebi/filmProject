@@ -1,4 +1,4 @@
-const apiKey = '13bfb3765a40e4eb67206f9a7c9edd73';
+import apiKey from './config.js'
 const url = `https://api.themoviedb.org/3/trending/movie/day?api_key=${apiKey}&language=en-US`;
 
 let films = []; 
