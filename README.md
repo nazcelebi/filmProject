@@ -4,7 +4,6 @@ Cinevizyon, film bilgilerini TMDB API kullanarak alıp kullanıcılara gösteren
 PROJE DETAYLARI;
 --> Ana sayfada popüler filmleri listeler.
 --> Arama özelliği ile filmleri isme göre filtreler.
---> Her film için ayrıntılı sayfaya yönlendirme yapar.
 --> Film kartlarına tıklandığında kullanıcıyı filmin ayrıntılı sayfasına yönlendirir ve burada filmin konusu ve fragmanı gibi bilgileri görüntüler
 
 
