@@ -1,5 +1,4 @@
-// Film detayları için API isteği
-const apiKey = '13bfb3765a40e4eb67206f9a7c9edd73';
+import apiKey from './config.js'
 const urlParams = new URLSearchParams(window.location.search);
 const filmId = urlParams.get('id');
 const filmUrl = `https://api.themoviedb.org/3/movie/${filmId}?api_key=${apiKey}&language=en-US`;
