@@ -17,7 +17,7 @@ document.getElementById('searchButton').addEventListener('click', function() {
     const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
 
     if (searchTerm === '') {
-        alert('Lütfen aramak istediğiniz kelimeyi ');
+        alert('Lütfen aramak istediğiniz kelimeyi girin. ');
         return;
     }
 
